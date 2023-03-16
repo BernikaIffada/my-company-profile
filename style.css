@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lora';
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #f5b942;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  padding-left: 20px;
+  width: 25%;
+}
+
+table {
+  position: center;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color: #724a00;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #724a00;
+}
+
+h4 {
+  color: #724a00;
+  text-align: center;
+}
+
+h6{
+  text-align: justify;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #724a00;
+  text-align: center;
+  color: white;
+}
+
+.profile header {
+  text-align: center;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  width: 20%;
+  max-height: 300px;
+}
+
+.profile img {
+  width: 200px;
+  flex-direction: row;
+  float: center;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+    }
+}
+
+.produk
+{
+    padding: 10px;
+    width: 110%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: row
+}
+
+.social-media {
+  padding: 5px;
+  color: #0e0d0d;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+a.social-media:hover{
+  background: #dddb6b!important;
+  color: #222!important;
+}
